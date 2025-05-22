@@ -2,6 +2,7 @@ import ThemeToggle from './components/ThemeToggle';
 import DragDrop from './components/DragDrop';
 import UserDetailsForm from './components/UserDetailsForm';
 import SearchWithDebounce from './components/searchFunctionality/SearchWithDebounce';
+import TodoApp from './components/ToDo';
 import { ThemeProvider } from './context/ThemeContext';
 
 const App = () => {
@@ -15,6 +16,8 @@ const App = () => {
         <UserDetailsForm />
         <hr />
         <SearchWithDebounce />
+        <hr />
+        <TodoApp />
       </div>
     </ThemeProvider>
   );
